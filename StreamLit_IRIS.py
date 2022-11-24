@@ -92,7 +92,18 @@ model.fit(X_train, y_train)
 # Config page Streamlit
 
 st.set_page_config(page_title="IRIS Predictor", layout="wide")
-
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://4kwallpapers.com/images/wallpapers/macos-monterey-stock-purple-dark-mode-layers-5k-3840x2160-5896.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
 st.subheader('Bonjour,')
 st.title("Analyseur d'IRIS")
 st.write("[Clique-ici >](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
