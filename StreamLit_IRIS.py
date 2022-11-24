@@ -46,7 +46,7 @@ def read_csv(filename):
 
 # Lecture du fichier CSV Iris
 
-iris = read_csv('iris.csv')
+iris = read_csv('https://raw.githubusercontent.com/Dimitri-J/Iris_Web/main/Iris.csv')
 
 
 # Fonction de prédiction
